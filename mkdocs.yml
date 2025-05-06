@@ -1,11 +1,13 @@
-site_name: MkDocs
+site_name: ProductName
 docs_dir: docs
 theme:
   name: material
+  logo: images/logo.png
+  favicon: images/favicon.png
   features:
-    - navigation.tabs
+    #- navigation.tabs
     - navigation.sections
-    - toe.integrate
+    #- toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -18,13 +20,13 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to dark mode
-      primary: teal
-      accent: purple
+      primary: deep blue
+      accent: blue
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
-        primary: teal
+        primary: blue
         accent: lime
 
 extra:
@@ -55,3 +57,6 @@ markdown_extensions:
 
 copyright: |
   &copy; 2025 <a href="https://github.com/totioti" target="_blank" rel«"noogener">Tetiana Onyshkevych</a>
+
+extra_css:
+  - styles.css

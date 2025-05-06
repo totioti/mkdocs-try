@@ -1,0 +1,9 @@
+.md-nav--secondary .md-nav__link {
+  color: #003183;
+}
+.md-nav--primary .md-nav__link {
+color: #003183;
+}
+.md-tabs {
+  justify-content: flex-end;
+}
